@@ -1,11 +1,11 @@
 {
-  "name": "@crello/react-lottie",
-  "version": "0.0.11",
+  "name": "react-lottie-lightweight",
+  "version": "0.0.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "private": false,
   "repository": {
-    "url": "https://github.com/crello/react-lottie",
+    "url": "https://github.com/jeetvirani/react-lottie-lightweight",
     "type": "git"
   },
   "license": "MIT",
@@ -66,5 +66,7 @@
     "svg",
     "after effects",
     "typescript"
-  ]
+  ],
+    "description": "React/Typescript lightweight wrapper for awesome Airbnb's [lottie-web](https://github.com/airbnb/lottie-web) lib."
+
 }

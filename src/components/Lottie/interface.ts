@@ -6,7 +6,7 @@ import {
   AnimationDirection,
   AnimationSegment,
   AnimationItem,
-} from 'lottie-web';
+} from 'lottie-web/build/player/lottie_light';
 import CSS from 'csstype';
 
 export interface ReactLottieEvent<T = any> {
