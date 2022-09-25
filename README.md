@@ -1,4 +1,4 @@
-# @jeetvirani/react-lottie
+# react-lottie-lightweight
 
 React/Typescript Light wrapper for awesome Airbnb's [lottie-web](https://github.com/airbnb/lottie-web) lib.
 
@@ -10,13 +10,13 @@ NOTE : this is a fork of react-lottie to use lottie_light.js instead of lottie p
 you can find demo files in `./examples` folder -- launch with `yarn start`
 
 ## Installation
-`yarn add @jeetvirani/react-lottie-lightweight` or `npm install --save @jeetvirani/react-lottie-lightweight`
+`yarn add react-lottie-lightweight` or `npm install --save react-lottie-lightweight`
 
 ## Usage
 Most basic react-lottie example:
 ```typescript
 import React from 'react';
-import { Lottie } from '@jeetvirani/react-lottie-lightweight'
+import { Lottie } from 'react-lottie-lightweight'
 import animationData from './myAwesomeAnimation.json'
 
 export const BasicLottieComponent = () => <Lottie config={{animationData: animationData}}>
@@ -63,7 +63,7 @@ Any browser events should be added on elements wrapping actual `<Lottie>` e.g.:
 
 ## More
 
-See more details in @jeetvirani/react-lottie-lightweight [exports](https://github.com/jeetvirani/react-lottie-lightweight/blob/master/src/components/Lottie/interface.ts): `Lottie`, `ReactLottieConfig`, `ReactLottieOwnProps`, `ReactLottiePlayingState`
+See more details in react-lottie-lightweight [exports](https://github.com/jeetvirani/react-lottie-lightweight/blob/master/src/components/Lottie/interface.ts): `Lottie`, `ReactLottieConfig`, `ReactLottieOwnProps`, `ReactLottiePlayingState`
 
 Also check out the types provided by [`lottie-web`](https://github.com/airbnb/lottie-web/blob/master/index.d.ts) itself: `AnimationDirection`, `AnimationSegment`, `AnimationEventName`, `AnimationEventCallback`, `AnimationItem`, `BaseRendererConfig`, `SVGRendererConfig`, `CanvasRendererConfig`, `HTMLRendererConfig`, `AnimationConfig`, `AnimationConfigWithPath`, `AnimationConfigWithData`, `Lottie`
 
